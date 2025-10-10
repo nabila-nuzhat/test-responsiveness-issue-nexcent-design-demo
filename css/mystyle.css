@@ -3,6 +3,13 @@
     --brandColorPrimary: #4CAF4F;
     --brandColorSecondary: #263238;
     --fontFamilyPrimary: "Inter", sans-serif;
+    --darkGreyColor: #4D4D4D;
+    --greyColor: #717171;
+    --lightGreyColor: #89939E;
+    --gray900Color: #18191F;
+    --silverColor: #F5F7FA;
+    --whiteColor: #fff;
+    --dropShadowColor: #ABBED1;
 }
 /* root end */
 /* css reset start */
