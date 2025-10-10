@@ -52,7 +52,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  /* line-height: 1.5; */ /*creates issues in css reset margin padding : 0 settings*/
+  /* line-height: 1.5; */ /*creates issues in css reset margin, padding : 0 settings*/
 } 
 
 ul,
@@ -96,7 +96,8 @@ body{
 }
 
 .container{
-  max-width: 1216px;
+  /* max-width: 1216px; */ /*lesseing the designs's 144 margin, calculating from nav length */
+  max-width: 1152px; /*keeping the designs's original 144 margin 1440-(2 x 144) */
   background-color: #4CAF4F;
   margin: 0 auto;
 }
@@ -105,7 +106,7 @@ body{
   align-items: center;
 }
 
-/* big Title Common CSS - Without Font Color */
+/* big Title Common CSS - Without Font Color because 3 different colors are used*/
 .titleOne{
   font-size: 64px;
   line-height: 76px;
@@ -120,6 +121,7 @@ body{
   font-weight: 600;
 }
 
+/* button Primary Design - login button will be size wise different than primary button */
 .btnPrimary{
   background-color: var(--brandColorPrimary);
   padding: 14px 32px;
