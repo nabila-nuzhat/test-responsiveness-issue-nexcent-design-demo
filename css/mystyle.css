@@ -2,6 +2,7 @@
 :root{
     --brandColorPrimary: #4CAF4F;
     --brandColorSecondary: #263238;
+    --fontFamilyPrimary: "Inter", sans-serif;
 }
 /* root end */
 /* css reset start */
@@ -68,3 +69,14 @@ select {
   
 }
 /* css reset end */
+
+/* common css start */
+/* font family - Primary - Class */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* common css end */
+
