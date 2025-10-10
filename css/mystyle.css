@@ -1,4 +1,4 @@
-/* root start */
+/* ============= root start =============== */
 :root{
     --brandColorPrimary: #4CAF4F;
     --brandColorSecondary: #263238;
@@ -11,12 +11,12 @@
     --whiteColor: #fff;
     --dropShadowColor: #ABBED1;
 }
-/* root end */
+/* ============= root end =============== */
 
-/* css reset start */
+/* ============ css reset start ========= */
 *,
 *::before,
-*::after {
+*::after { 
   padding: 0;
   margin: 0;
 }
@@ -53,7 +53,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   /* line-height: 1.5; */ /*creates issues in css reset margin padding : 0 settings*/
-}
+} 
 
 ul,
 ol {
@@ -62,7 +62,7 @@ ol {
 
 a {
   text-decoration: none;
-}
+} 
 
 img {
   max-width: 100%;
@@ -76,9 +76,10 @@ select {
   font: inherit;
   
 }
-/* css reset end */
+/* ============ css reset end =============== */
 
-/* common css start */
+/* ============ common css start ============ */
+
 /* font family - Primary - Class */
 .inter {
   font-family: var(--fontFamilyPrimary); /*"Inter", sans-serif;*/
@@ -86,5 +87,64 @@ select {
   font-weight: 400;
   font-style: normal;
 }
-/* common css end */
+
+body{
+  font-family: var(--fontFamilyPrimary);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+  max-width: 1216px;
+  background-color: #4CAF4F;
+  margin: 0 auto;
+}
+
+.alignItemsCenter{
+  align-items: center;
+}
+
+/* big Title Common CSS - Without Font Color */
+.titleOne{
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 600;
+}
+
+/* common sub-title design */
+.subTitleOne{
+  font-size: 36px;
+  color: var(--darkGreyColor);
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.btnPrimary{
+  background-color: var(--brandColorPrimary);
+  padding: 14px 32px;
+  border: 1px solid var(--brandColorPrimary);
+  border-radius: 4px;
+  color: var(--whiteColor);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: inline-block;
+}
+
+/* common Paragraph 1 */
+.commonParaGraphOne{
+  font-size: 16px;
+  color: var(--greyColor);
+  line-height: 24px;
+}
+
+/* common Paragraph 2 */
+.commonParaGraphTwo{
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--greyColor);
+}
+
+/* ============ common css end ============ */
 
