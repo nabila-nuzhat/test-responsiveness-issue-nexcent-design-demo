@@ -1,3 +1,9 @@
+/* root start */
+:root{
+    --brandColorPrimary: #4CAF4F;
+    --brandColorSecondary: #263238;
+}
+/* root end */
 /* css reset start */
 *,
 *::before,
