@@ -98,8 +98,11 @@ body{
 .container{
   /* max-width: 1216px; */ /*lesseing the designs's 144 margin, calculating from nav length */
   max-width: 1152px; /*keeping the designs's original 144 margin 1440-(2 x 144) */
-  background-color: #4CAF4F;
   margin: 0 auto;
+}
+
+.flex{
+  display: flex;
 }
 
 .alignItemsCenter{
@@ -134,8 +137,21 @@ body{
   display: inline-block;
 }
 
+/* navBar Buttons common class */
+.btnNavBar{
+  padding: 10px 20px;
+  border: 1px solid var(--brandColorPrimary);
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  display: inline-block;
+}
+
+
 /* common Paragraph 1 */
-.commonParaGraphOne{
+.commonParaGraphOne, 
+.navMenu{
   font-size: 16px;
   color: var(--greyColor);
   line-height: 24px;
@@ -149,4 +165,52 @@ body{
 }
 
 /* ============ common css end ============ */
+
+/* ============ header css start ============ */
+header{
+  background-color: var(--silverColor);
+}
+
+nav{
+  justify-content: space-between;
+  padding: 22px 100px;
+  /* position: sticky; */
+}
+
+.navLogo{
+  width: 20%;
+}
+
+menu{
+  width: 60%;
+  justify-content: center;
+}
+
+menu ul{
+  gap: 50px;
+}
+
+.navLoginSignup{
+  width: 20%;
+  justify-content: flex-end;
+  column-gap: 14px;
+}
+
+.loginBtn{
+  background-color: transparent;
+  color: var(--brandColorPrimary);
+}
+
+.navMenu li a{
+  color: var(--gray900Color);
+  font-weight: 500;
+}
+
+.signUpBtn{
+  background-color: var(--brandColorPrimary);
+  color: var(--whiteColor);
+}
+
+
+/* ============ header css end ============ */
 
