@@ -114,6 +114,7 @@ body{
   font-size: 64px;
   line-height: 76px;
   font-weight: 600;
+  color: var(--darkGreyColor);
 }
 
 /* common sub-title design */
@@ -135,6 +136,11 @@ body{
   font-weight: 500;
   line-height: 24px;
   display: inline-block;
+  transition: 0.4s;
+}
+.btnPrimary:hover{
+  background-color: var(--brandColorSecondary);
+  border: 1px solid var(--brandColorSecondary);
 }
 
 /* navBar Buttons common class */
@@ -147,7 +153,6 @@ body{
   line-height: 20px;
   display: inline-block;
 }
-
 
 /* common Paragraph 1 */
 .commonParaGraphOne, 
@@ -169,12 +174,15 @@ body{
 /* ============ header css start ============ */
 header{
   background-color: var(--silverColor);
+  height: 100vh;
 }
 
 nav{
   justify-content: space-between;
-  padding: 22px 100px;
-  /* position: sticky; */
+  padding: 22px 50px; /* padding(side) changed from 100px to 50px*/
+  position: sticky;
+  top: 0;
+  background-color: var(--silverColor);
 }
 
 /* .navLogo{
@@ -191,6 +199,10 @@ menu{
 
 menu ul{
   gap: 50px;
+}
+
+menu ul li a:hover{
+  color: var(--brandColorPrimary);
 }
 
 .navLoginSignup{
@@ -214,6 +226,28 @@ menu ul{
   color: var(--whiteColor);
 }
 
+/* hero section start */
+
+#heroSection{
+  /* padding: 50px 0px; */
+  height: 80%;
+  
+}
+
+.heroAllContentsWrapper{
+  justify-content: space-between;
+  gap: 104px;
+}
+
+#heroTextContentSection h1 span{
+  color: var(--brandColorPrimary);
+  display: block;
+}
+
+#heroTextContentSection p{
+  margin: 16px 0 32px;
+}
+/* hero section end */
 
 /* ============ header css end ============ */
 
