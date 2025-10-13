@@ -184,6 +184,7 @@ nav{
   position: sticky;
   top: 0;
   background-color: var(--silverColor);
+  z-index: 999;
 }
 
 /* .navLogo{
@@ -202,6 +203,9 @@ menu ul{
   gap: 50px;
 }
 
+menu ul li a{
+  transition: 0.4s;
+}
 menu ul li a:hover{
   color: var(--brandColorPrimary);
 }
@@ -280,4 +284,45 @@ menu ul li a:hover{
 /* hero section end */
 
 /* ============ header css end ============ */
+
+/* ============ clients section start ============ */
+
+#clientSection{
+  text-align: center;
+  padding: 40px 0 40px;
+}
+#clientSection p{
+  margin: 8px 0 16px;
+}
+
+.clientIconSsection{
+  justify-content: space-between;
+  /* column-gap: 136px; */
+  padding: 25px 0 25px;
+}
+
+
+.clientIconSsection div:nth-child(2),
+.clientIconSsection div:nth-child(3),
+.clientIconSsection div:nth-child(4),
+.clientIconSsection div:nth-child(5),
+.clientIconSsection div:nth-child(6)
+{ 
+  padding: 0 68px;
+}
+
+.clientIconSsection div:nth-child(1)
+{ 
+  padding-right: 68px;
+}
+.clientIconSsection div:nth-child(7)
+{ 
+  padding-left: 68px;
+}
+
+.clientIconSsection img{
+  padding: 10px;
+}
+
+/* ============ clients section end ============ */
 
