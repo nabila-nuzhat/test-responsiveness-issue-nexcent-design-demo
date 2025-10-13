@@ -185,6 +185,7 @@ nav{
   padding: 22px 50px; /* padding(side) changed from 100px to 50px*/
   position: sticky;
   top: 0;
+  left: 0;
   background-color: var(--silverColor);
   z-index: 999;
 }
@@ -374,4 +375,25 @@ menu ul li a:hover{
 
 /* .communityCardTitleDescription common style is same as  .commonParaGraphTwo*/
 /* ============ community section end ============ */
+/* ============ pixel Grade section start ============ */
+.pixelGradeImageSection{
+  width: 40%;
+  padding: 50px 60px;
+  margin: 42px 0px;
+}
+
+.pixelGradeTextSection{
+  width: 60%;
+}
+
+.pixelGradeTitleParaWrapper{
+  width: 550px;
+}
+
+.pixelGradeTitleParaWrapper p{
+  margin: 16px 0 32px;
+}
+
+
+/* ============ pixel Grade section end ============ */
 
