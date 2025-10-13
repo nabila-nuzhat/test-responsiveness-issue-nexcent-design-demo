@@ -9,7 +9,8 @@
     --gray900Color: #18191F;
     --silverColor: #F5F7FA;
     --whiteColor: #fff;
-    --dropShadowColor: #ABBED1;
+    --dropShadowColor20: rgba(171, 190, 209, 0.2); /*20% opacity for box shadow*/
+    --dropShadowColor40: rgba(171, 190, 209, 0.4); /*40% opacity for box shadow*/
     --hoverOpacityBrandColorPrimary: rgba(76, 175, 79, 0.3);
 }
 /* ============= root end =============== */
@@ -168,6 +169,7 @@ body{
   font-size: 14px;
   line-height: 20px;
   color: var(--greyColor);
+  font-weight: 400;
 }
 
 /* ============ common css end ============ */
@@ -291,7 +293,10 @@ menu ul li a:hover{
   text-align: center;
   padding: 40px 0 40px;
 }
-#clientSection p{
+
+#clientSection p, 
+#communitySection p
+{
   margin: 8px 0 16px;
 }
 
@@ -301,28 +306,72 @@ menu ul li a:hover{
   padding: 25px 0 25px;
 }
 
-
 .clientIconSsection div:nth-child(2),
 .clientIconSsection div:nth-child(3),
 .clientIconSsection div:nth-child(4),
 .clientIconSsection div:nth-child(5),
 .clientIconSsection div:nth-child(6)
 { 
-  padding: 0 68px;
+  margin: 0 68px;
+  /* width: 48px; */
 }
 
 .clientIconSsection div:nth-child(1)
 { 
-  padding-right: 68px;
+  margin-right: 68px;
+  /* width: 48px; */
 }
 .clientIconSsection div:nth-child(7)
 { 
-  padding-left: 68px;
+  margin-left: 68px;
+  /* width: 48px; */
 }
 
-.clientIconSsection img{
-  padding: 10px;
-}
+/* .clientIconSsection img{
+  width: 48px;
+  height: 48px;
+} */
 
 /* ============ clients section end ============ */
+
+/* ============ community section start ============ */
+
+#communitySection{
+ text-align: center;
+ margin: 42px 0;
+}
+#communitySection .subTitleOne{
+  width: 542px;
+  margin: 0 auto; /*bcz after applying fixed width text-align: center is not working*/
+}
+
+/* CARDS design */
+.communityCardsWrapper{
+  justify-content: space-between;
+  gap: 127px;
+}
+
+.communityCard{
+  /* width: 299px; */
+  padding: 24px 32px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px var(--dropShadowColor20);
+}
+
+.communityCardImage img{
+  margin: 0 auto; /*bcz display block in image*/
+}
+
+.communityCardTitle{
+ padding: 16px 0px 8px;
+  color: var(--darkGreyColor);
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  width: 231px;
+  margin: 0 auto;
+}
+
+/* .communityCardTitleDescription common style is same as  .commonParaGraphTwo*/
+/* ============ community section end ============ */
 
