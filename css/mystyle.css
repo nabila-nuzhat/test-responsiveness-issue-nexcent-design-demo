@@ -159,7 +159,8 @@ body{
 
 /* common Paragraph 1 */
 .commonParaGraphOne, 
-.navMenu{
+.navMenu,
+.counterTitleNames{
   font-size: 16px;
   color: var(--greyColor);
   line-height: 24px;
@@ -408,8 +409,42 @@ menu ul li a:hover{
 .counterWrapper{
   width: 50%;
 }
+
+.counterWrapper{
+  flex-direction: column;
+  row-gap: 40px;
+}
 .achievementTextSection p{
   margin-top: 8px;
 }
+
+/* .counterWrapper{
+  margin-left: auto;
+} */
+
+/* .achievementCounterSection {
+  justify-content: space-between;
+  
+} */
+
+.counterContents{
+  width: 255px;
+  column-gap: 16px;
+}
+.counterTitleNumbers{
+  color: var(--darkGreyColor);
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.counterTitleNumbers{
+  color: var(--darkGreyColor);
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+/* counterTitleNames style = commonParaGraphOne style */
 /* ============ achievemnet section end ============ */
 
