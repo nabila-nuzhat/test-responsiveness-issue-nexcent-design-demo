@@ -441,13 +441,10 @@ menu ul li a:hover{
   font-weight: 700;
 }
 
-.counterTitleNumbers{
-  color: var(--darkGreyColor);
-  font-size: 28px;
-  line-height: 36px;
-  font-weight: 700;
+.counterTitleNames{
+  font-weight: 400;
 }
 
-/* counterTitleNames style = commonParaGraphOne style */
+/* counterTitleNames common style = commonParaGraphOne common style */
 /* ============ achievemnet section end ============ */
 
