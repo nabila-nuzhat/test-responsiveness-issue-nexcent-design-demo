@@ -64,6 +64,7 @@ ol {
 
 a {
   text-decoration: none;
+  display: inline-block
 } 
 
 img {
@@ -247,7 +248,8 @@ menu ul li a:hover{
   gap: 104px;
 }
 
-#heroTextContentSection h1 span{
+#heroTextContentSection h1 span,
+.achievementTextSection h3 span{
   color: var(--brandColorPrimary);
   display: block;
 }
@@ -396,4 +398,18 @@ menu ul li a:hover{
 
 
 /* ============ pixel Grade section end ============ */
+/* ============ achievemnet section start ============ */
+#achievementSection{
+  background-color: var(--silverColor);
+  padding: 64px 0px;
+}
+
+.achievementTextSection,
+.counterWrapper{
+  width: 50%;
+}
+.achievementTextSection p{
+  margin-top: 8px;
+}
+/* ============ achievemnet section end ============ */
 
