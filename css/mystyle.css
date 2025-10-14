@@ -410,10 +410,7 @@ menu ul li a:hover{
   width: 50%;
 }
 
-.counterWrapper{
-  flex-direction: column;
-  row-gap: 40px;
-}
+
 .achievementTextSection p{
   margin-top: 8px;
 }
@@ -426,6 +423,12 @@ menu ul li a:hover{
   justify-content: space-between;
   
 } */
+
+/* achievement section - counter section css */
+.counterWrapper{
+  flex-direction: column;
+  row-gap: 40px;
+}
 
 .counterContents{
   width: 255px;
