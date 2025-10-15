@@ -304,7 +304,8 @@ menu ul li a:hover{
   margin: 8px 0 16px;
 }
 
-.clientIconSsection{
+.clientIconSsection,
+.customersIconSsection{
   justify-content: space-between;
   /* column-gap: 136px; */
   padding: 25px 0 25px;
@@ -331,10 +332,10 @@ menu ul li a:hover{
   /* width: 48px; */
 }
 
-/* .clientIconSsection img{
+.clientIconSsection img{
   width: 48px;
-  height: 48px;
-} */
+  /* height: 48px; */
+}
 
 /* ============ clients section end ============ */
 
@@ -409,7 +410,7 @@ menu ul li a:hover{
 /* ============ pixel Grade section end ============ */
 /* ============ achievemnet section start ============ */
 #achievementSection,
-#customerSection{
+#customersSection{
   background-color: var(--silverColor);
   padding: 64px 0px;
 }
@@ -462,13 +463,13 @@ menu ul li a:hover{
 /* designFooter Section style = pixelGrade Section style */
 /* ============ design footer section end ============ */
 
-/* ============ customers section start ============ */
-#customerSection{
+/* ============ customerss section start ============ */
+#customersSection{
   padding: 32px 0px;
 }
 
 
-.customerImageSection
+.customersImageSection
 {
   width: 30%;
   padding: 50px 60px;
@@ -476,22 +477,52 @@ menu ul li a:hover{
 }
 
 
-.customerTextSection
+.customersTextSection
 {
   width: 70%;
 }
 
 
-.customerTitleParaWrapper
+/* .customersTitleParaWrapper
 {
   width: 550px;
-}
+} */
 
 
-.customerTitleParaWrapper p
+.customersOnlyTextsWrapper p
 {
   margin: 16px 0 32px;
 }
 
-/* ============ customers section end ============ */
+.customersOnlyTextsWrapper p:nth-child(1)
+{
+  font-weight: 500;
+}
+
+.customersOnlyTextsWrapper .lightGreyParaStyle
+{
+  font-weight: 400;
+  color: var(--lightGreyColor);
+}
+
+.customersSectionLinkDiv a{
+  color: var(--brandColorPrimary);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.meetCustomersLink::after{
+  content: url('../assets/customer-section/right-arrow.png');
+  margin-left: 8px;
+}
+
+/* .customersIconSsection{
+  gap: 41px;
+} */
+/* .customersIconSsection div img{
+  width: 48px;
+} */
+
+/* ============ customerss section end ============ */
 
