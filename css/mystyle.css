@@ -408,7 +408,8 @@ menu ul li a:hover{
 
 /* ============ pixel Grade section end ============ */
 /* ============ achievemnet section start ============ */
-#achievementSection{
+#achievementSection,
+#customerSection{
   background-color: var(--silverColor);
   padding: 64px 0px;
 }
@@ -457,9 +458,40 @@ menu ul li a:hover{
 /* ============ achievemnet section end ============ */
 
 
-/* ============ achievemnet section start ============ */
-/* designFooterImageSection style = pixelGradeImageSection style */
-/* ============ achievemnet section end ============ */
+/* ============ design footer section start ============ */
+/* designFooter Section style = pixelGrade Section style */
+/* ============ design footer section end ============ */
+
+/* ============ customers section start ============ */
+#customerSection{
+  padding: 32px 0px;
+}
 
 
+.customerImageSection
+{
+  width: 30%;
+  padding: 50px 60px;
+  margin: 42px 0px;
+}
+
+
+.customerTextSection
+{
+  width: 70%;
+}
+
+
+.customerTitleParaWrapper
+{
+  width: 550px;
+}
+
+
+.customerTitleParaWrapper p
+{
+  margin: 16px 0 32px;
+}
+
+/* ============ customers section end ============ */
 
