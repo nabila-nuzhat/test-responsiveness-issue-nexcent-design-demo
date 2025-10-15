@@ -379,21 +379,29 @@ menu ul li a:hover{
 /* .communityCardTitleDescription common style is same as  .commonParaGraphTwo*/
 /* ============ community section end ============ */
 /* ============ pixel Grade section start ============ */
-.pixelGradeImageSection{
+.pixelGradeImageSection,
+.designFooterImageSection
+{
   width: 40%;
   padding: 50px 60px;
   margin: 42px 0px;
 }
 
-.pixelGradeTextSection{
+.pixelGradeTextSection,
+.designFooterTextSection
+{
   width: 60%;
 }
 
-.pixelGradeTitleParaWrapper{
+.pixelGradeTitleParaWrapper,
+.designFooterTitleParaWrapper
+{
   width: 550px;
 }
 
-.pixelGradeTitleParaWrapper p{
+.pixelGradeTitleParaWrapper p,
+.designFooterTitleParaWrapper p
+{
   margin: 16px 0 32px;
 }
 
@@ -447,4 +455,11 @@ menu ul li a:hover{
 
 /* counterTitleNames common style = commonParaGraphOne common style */
 /* ============ achievemnet section end ============ */
+
+
+/* ============ achievemnet section start ============ */
+/* designFooterImageSection style = pixelGradeImageSection style */
+/* ============ achievemnet section end ============ */
+
+
 
