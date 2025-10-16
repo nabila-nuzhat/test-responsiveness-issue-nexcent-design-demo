@@ -7,6 +7,7 @@
     --greyColor: #717171;
     --lightGreyColor: #89939E;
     --gray900Color: #18191F;
+    --gray300Color: #D9DBE1;
     --silverColor: #F5F7FA;
     --whiteColor: #fff;
     --dropShadowColor20: rgba(171, 190, 209, 0.2); /*20% opacity for box shadow*/
@@ -548,4 +549,95 @@ menu ul li a:hover{
 }
 
 /* ============ demo section end ============ */
+/* ============ footer section start ============ */
+footer{
+  background-color: var(--brandColorSecondary);
+  padding: 64px 0px;
+}
+
+/* footer sub titles common style css */
+.footerCommonSubTitles{
+  color: var(--whiteColor);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.footerAllContentsWrapper{
+  justify-content: space-between;
+}
+
+
+.footerCompanyInfoDivWrapper h6,
+footer ul li a
+/* input[type="email"] */
+{
+  color: var(--silverColor) !important;
+}
+
+.footerWhiteLogoDiv{
+  margin-bottom: 40px;
+}
+
+.footerCompanyInfoDivWrapper h6{
+  margin-bottom: 8px;
+}
+
+.footerSocialIconsDiv{
+  margin-top: 32px;
+}
+
+.footerSocialIconsDiv a{
+  margin-right: 16px;
+}
+
+.footerSocialIconsDiv a img{
+  width: 32px;
+  height: 32px;
+}
+
+.footerLinksAndEmailDivWrapper{
+  column-gap: 30x;
+}
+
+.footerLinksAndEmailDivWrapper ul li{
+  margin-bottom: 12px;
+}
+
+.companyInfoLinksDiv,
+.supportLinksDiv{
+  width: 166px;
+}
+
+ .formInput{
+  flex-direction: column;
+}
+
+#emailFooterInput{
+  /* color: var(--gray300Color); */
+  /* color: var(--whiteColor); */
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 30px;
+  outline: none;
+  border: 1px solid transparent;
+
+  /* issue..................................................... */
+  background-image: url('../assets/footer/send.png');
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+
+}
+
+
+
+/* #emailFooterInput[placeholder]::after{
+  content: url('../assets/footer/send.png');
+} */
+/* input[placeholder]
+{
+    color: var(--whiteColor);
+} */
+/* ============ footer section end ============ */
 
