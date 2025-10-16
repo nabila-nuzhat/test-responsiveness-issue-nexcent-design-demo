@@ -615,7 +615,7 @@ footer ul li a
 }
 
 #emailFooterInput{
-  /* color: var(--gray300Color); */
+  color: var(--gray300Color);
   /* color: var(--whiteColor); */
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
