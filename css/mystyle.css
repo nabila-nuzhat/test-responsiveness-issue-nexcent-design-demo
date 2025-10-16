@@ -410,7 +410,9 @@ menu ul li a:hover{
 /* ============ pixel Grade section end ============ */
 /* ============ achievemnet section start ============ */
 #achievementSection,
-#customersSection{
+#customersSection,
+#demoSection
+{
   background-color: var(--silverColor);
   padding: 64px 0px;
 }
@@ -463,8 +465,9 @@ menu ul li a:hover{
 /* designFooter Section style = pixelGrade Section style */
 /* ============ design footer section end ============ */
 
-/* ============ customerss section start ============ */
-#customersSection{
+/* ============ customers section start ============ */
+#customersSection,
+#demoSection{
   padding: 32px 0px;
 }
 
@@ -527,5 +530,22 @@ menu ul li a:hover{
   width: 48px;
 } */
 
-/* ============ customerss section end ============ */
+/* ============ customers section end ============ */
+/* ============ demo section start ============ */
+#demoSection{
+  text-align: center; /* text align center in the parent div*/
+}
+
+#demoSection h2{
+  width: 887px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.demoLink::after{
+  content: url('../assets/white-right-arrow.png');
+  margin-left: 8px;
+}
+
+/* ============ demo section end ============ */
 
