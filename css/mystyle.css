@@ -181,18 +181,22 @@ body{
 header{
   background-color: var(--silverColor);
   height: 100vh;
+
+  /* padding: 100px 0px; */
 }
 
 nav{
-  justify-content: space-between;
-  padding: 22px 50px; /* padding(side) changed from 100px to 50px*/
-  position: sticky;
-  top: 0;
-  left: 0;
+  /* justify-content: space-between; */
+  padding: 22px 0px; /* padding(side)(from 100px to 50px) ommited bcz container added */
+  /* position: fixed;
+  width: 100%;  */
   background-color: var(--silverColor);
-  z-index: 999;
+  /* z-index: 999; */
 }
 
+#navbarAllContentsWrapper{
+  justify-content: space-between;
+}
 /* .navLogo{
   width: 20%;
 } */
@@ -241,8 +245,9 @@ menu ul li a:hover{
 
 #heroSection{
   /* padding: 50px 0px; */
+  /* padding-bottom: 16px; */
   height: 80%;
-  position: relative;
+  /* position: relative; */
 }
 
 .heroAllContentsWrapper{
@@ -265,9 +270,10 @@ menu ul li a:hover{
   margin: auto;
   gap: 8px;
   position: absolute;
-  bottom: 0;
+  bottom: 16px;
   left: 50%;
   transform: translateX(-50%);
+
 }
 
 .sliderBtn div{
