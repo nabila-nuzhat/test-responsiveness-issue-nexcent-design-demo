@@ -541,10 +541,19 @@ menu ul li a:hover{
 /* ============ customers section end ============ */
 
 /* ============ marketing section start ============ */
+
+.marketingAllCardsWrapper{
+  gap: 24px;
+}
+
 #marketingSection p{
   width: 668px;
   padding: 8px 0px 16px;
   margin: 0 auto;
+}
+
+.marketingCard{
+  width: 368px;
 }
 
 .marketingCardTitle{
@@ -552,7 +561,18 @@ menu ul li a:hover{
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
+  height: 84px;
+  margin-bottom: 16px;
 }
+
+.marketingTextDiv{
+  background-color: var(--silverColor);
+  width: 317px;
+  height: 176px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
 /* ============ marketing section end ============ */
 
 /* ============ demo section start ============ */
