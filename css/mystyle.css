@@ -300,7 +300,8 @@ menu ul li a:hover{
 
 /* ============ clients section start ============ */
 
-#clientSection{
+#clientSection,
+#marketingSection{
   text-align: center;
   padding: 40px 0 40px;
 }
@@ -538,6 +539,22 @@ menu ul li a:hover{
 } */
 
 /* ============ customers section end ============ */
+
+/* ============ marketing section start ============ */
+#marketingSection p{
+  width: 668px;
+  padding: 8px 0px 16px;
+  margin: 0 auto;
+}
+
+.marketingCardTitle{
+  color: var(--greyColor);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+/* ============ marketing section end ============ */
+
 /* ============ demo section start ============ */
 #demoSection{
   text-align: center; /* text align center in the parent div*/
