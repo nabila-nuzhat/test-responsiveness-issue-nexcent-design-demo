@@ -175,6 +175,13 @@ body{
   font-weight: 400;
 }
 
+/* common box-shadow - 40% */
+.customersImageSection,
+.marketingTextDiv
+{
+  box-shadow: 0px 8px 16px var(--dropShadowColor40);
+}
+
 /* ============ common css end ============ */
 
 /* ============ header css start ============ */
@@ -486,8 +493,7 @@ menu ul li a:hover{
   /* padding: 50px 60px;*/
   margin-right: 78px;
   border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0px 8px 16px var(--dropShadowColor40);
+  overflow: hidden; /* box-shadow moved to common css - as common box-shadow - 40%*/
 }
 
 
@@ -496,12 +502,10 @@ menu ul li a:hover{
   width: 70%;
 }
 
-
 /* .customersTitleParaWrapper
 {
   width: 550px;
 } */
-
 
 .customersOnlyTextsWrapper p
 {
@@ -519,14 +523,18 @@ menu ul li a:hover{
   color: var(--lightGreyColor);
 }
 
-.customersSectionLinkDiv a{
+.customersSectionLinkDiv a,
+.marketingLink a
+{
   color: var(--brandColorPrimary);
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
 }
 
-.meetCustomersLink::after{
+.meetCustomersLink::after,
+.marketingLink::after
+{
   content: url('../assets/customer-section/right-arrow.png');
   margin-left: 8px;
 }
@@ -544,6 +552,7 @@ menu ul li a:hover{
 
 .marketingAllCardsWrapper{
   gap: 24px;
+  padding-bottom: 174px;
 }
 
 #marketingSection p{
@@ -554,6 +563,12 @@ menu ul li a:hover{
 
 .marketingCard{
   width: 368px;
+  position: relative;
+}
+
+.marketingCardImgDiv{
+    /* position: relative; */
+    height: 286px;
 }
 
 .marketingCardTitle{
@@ -568,10 +583,24 @@ menu ul li a:hover{
 .marketingTextDiv{
   background-color: var(--silverColor);
   width: 317px;
-  height: 176px;
+  /* height: 176px; */
   padding: 16px;
-  border-radius: 8px;
+  border-radius: 8px; /* box-shadow moved to common css - as common box-shadow - 40%*/
+  /* margin: 0 auto; */
+
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  /* transform: translate(-50%, 0); */
+  transform: translateX(-50%);
 }
+
+.marketingLink{
+  /* border: 1px solid var(--brandColorPrimary); */
+  padding: 8px;
+}
+
+/* .marketingLink a common design = .customersSectionLinkDiv a common design */
 
 /* ============ marketing section end ============ */
 
