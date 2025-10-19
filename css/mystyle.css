@@ -660,7 +660,9 @@ footer{
 
 
 .footerCompanyInfoDivWrapper h6,
-footer ul li a
+footer ul li a,
+input,
+input::placeholder
 /* input[type="email"] */
 {
   color: var(--silverColor) !important;
@@ -700,6 +702,9 @@ footer ul li a
   width: 166px;
 }
 
+.emailInputDiv{
+  align-self: flex-start;
+}
  .formInput{
   flex-direction: column;
 }
@@ -713,13 +718,48 @@ footer ul li a
   outline: none;
   border: 1px solid transparent;
 
-  /* issue..................................................... */
-  background-image: url('../assets/footer/send.png');
+  /* issue............send icon image......................................... */
+  /* background-image: url('../assets/footer/send.png');
   background-repeat: no-repeat;
-  background-position: 5px 10px;
+  background-position: 5px 10px; */
 
+  /* position: relative; */
 }
 
+.footerSendButton{
+  background-color: transparent;
+  /* border: none;
+  outline: none; */
+  /* position: absolute;
+  bottom: 50%;
+  left: 0; */
+}
+
+
+/* TEST FOR Aligning button send image Status: DONE --------------------------- */
+
+.formInput{
+  position: relative;
+}
+.footerSendButton{
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 70%;
+  right: 0; 
+  transform: translate(-80%, 0);
+  
+}
+
+/* .footerSendButton img{
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(50%);
+  display: inline-block;
+  margin-left: auto;
+  
+} */
 
 
 /* #emailFooterInput[placeholder]::after{
