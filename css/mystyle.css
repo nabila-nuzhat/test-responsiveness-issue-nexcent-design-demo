@@ -142,7 +142,10 @@ body{
   display: inline-block;
   transition: 0.4s;
 }
-.btnPrimary:hover{
+
+.btnPrimary:hover,
+.btnNavBar:hover
+{
   background-color: var(--brandColorSecondary);
   border: 1px solid var(--brandColorSecondary);
 }
@@ -156,6 +159,7 @@ body{
   font-weight: 500;
   line-height: 20px;
   display: inline-block;
+  transition: 0.4s;
 }
 
 /* common Paragraph 1 */
@@ -236,8 +240,15 @@ menu ul li a:hover{
 .loginBtn{
   background-color: transparent;
   color: var(--brandColorPrimary);
+  transition: 0.4s;
 }
 
+.loginBtn:hover{
+  background-color: var(--brandColorPrimary);
+  border: 1px solid transparent;
+  color: var(--whiteColor);
+} 
+ 
 .navMenu li a{
   color: var(--gray900Color);
   font-weight: 500;
@@ -530,6 +541,13 @@ menu ul li a:hover{
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
+  transition: 0.4s;
+}
+
+.customersSectionLinkDiv a:hover,
+.marketingLink a:hover
+{
+  color: rgba(76, 175, 79, 0.8);
 }
 
 .meetCustomersLink::after,
