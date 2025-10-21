@@ -186,22 +186,23 @@ body{
   box-shadow: 0px 8px 16px var(--dropShadowColor40);
 }
 
+.silverBackground{
+  background-color: var(--silverColor);
+}
 /* ============ common css end ============ */
 
-/* ============ header css start ============ */
-header{
-  background-color: var(--silverColor);
+/* ============ header css start =========== */
+/* header{
   height: 100vh;
-
-  /* padding: 100px 0px; */
-}
+  margin: 0 auto;
+  padding: 100px 0px;
+} */
 
 nav{
   /* justify-content: space-between; */
   padding: 22px 0px; /* padding(side)(from 100px to 50px) ommited bcz container added */
   /* position: fixed;
   width: 100%;  */
-  background-color: var(--silverColor);
   /* z-index: 999; */
 }
 
