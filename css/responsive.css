@@ -1,0 +1,18 @@
+/* TEST BLOCK CSS New TEST Codes */
+
+.colorTestSection{
+    background-color: pink;
+    padding: 22px 0px;
+    margin: 0 auto;
+}
+
+.divOne{
+    background-color: blue;
+}
+.divTwo{
+    background-color: green;
+}
+.divThree{
+    background-color: crimson;
+}
+

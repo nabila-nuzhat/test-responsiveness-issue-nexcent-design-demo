@@ -1,0 +1,128 @@
+/* ============ header css start =========== */
+/* header{
+  height: 100vh;
+  margin: 0 auto;
+  padding: 100px 0px;
+} */
+
+nav{
+  /* justify-content: space-between; */
+  padding: 22px 0px; /* padding(side)(from 100px to 50px) ommited bcz container added */
+  /* position: fixed;
+  width: 100%;  */
+  /* z-index: 999; */
+}
+
+#navbarAllContentsWrapper{
+  justify-content: space-between;
+}
+/* .navLogo{
+  width: 20%;
+} */
+.navLogo img{
+  max-width: 154px;
+}
+
+menu{
+  /* width: 60%; */
+  justify-content: center;
+}
+
+menu ul{
+  gap: 50px;
+}
+
+menu ul li a{
+  transition: 0.4s;
+}
+menu ul li a:hover{
+  color: var(--brandColorPrimary);
+}
+
+.navLoginSignup{
+  /* width: 20%; */
+  justify-content: flex-end;
+  column-gap: 14px;
+}
+
+.loginBtn{
+  background-color: transparent;
+  color: var(--brandColorPrimary);
+  transition: 0.4s;
+}
+
+.loginBtn:hover{
+  background-color: var(--brandColorPrimary);
+  border: 1px solid transparent;
+  color: var(--whiteColor);
+} 
+ 
+.navMenu li a{
+  color: var(--gray900Color);
+  font-weight: 500;
+}
+
+.signUpBtn{
+  background-color: var(--brandColorPrimary);
+  color: var(--whiteColor);
+}
+
+/* hero section start */
+
+#heroSection{
+  /* padding: 50px 0px; */
+  /* padding-bottom: 16px; */
+  height: 80%;
+  /* position: relative; */
+}
+
+.heroAllContentsWrapper{
+  justify-content: space-between;
+  gap: 104px;
+}
+
+#heroTextContentSection h1 span,
+.achievementTextSection h3 span{
+  color: var(--brandColorPrimary);
+  display: block;
+}
+
+#heroTextContentSection p{
+  margin: 16px 0 32px;
+}
+
+/* slider buttons */
+.sliderBtn{
+  margin: auto;
+  gap: 8px;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.sliderBtn div{
+  background-color: var(--brandColorPrimary);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: 0.4s;
+}
+
+.sliderBtn div:hover{
+  background-color: var(--hoverOpacityBrandColorPrimary);
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.sliderBtn .deActive{
+  background-color: var(--hoverOpacityBrandColorPrimary);
+} 
+/* hero section end */
+
+/* ============ header css end ============ */
+
+
+
